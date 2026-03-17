@@ -1,23 +1,34 @@
 [
   {
-    "model_name": "distilgpt2",
-    "library": "transformers",
-    "year_created": 2019,
-    "language": "Python",
-    "cpu_only": true
+    "model_name": "Mistral-NeMo-12B-Instruct-v1",
+    "region": "Europe (France)",
+    "library": "transformers / llama.cpp",
+    "year_created": 2024,
+    "ethical_focus": "Neutralité et directivité, évite le ton moralisateur typique de la Silicon Valley.",
+    "cpu_only": false
   },
   {
-    "model_name": "EleutherAI/gpt-neo-1.3B",
-    "library": "transformers",
-    "year_created": 2021,
-    "language": "Python",
-    "cpu_only": true
+    "model_name": "Llama-3.1-8B-Instruct",
+    "region": "Amérique du Nord (USA)",
+    "library": "transformers / llama.cpp",
+    "year_created": 2024,
+    "ethical_focus": "Alignement strict via RLHF, protocoles de sécurité et d'inclusion occidentaux.",
+    "cpu_only": false
   },
   {
-    "model_name": "bloom-560m",
-    "library": "transformers",
-    "year_created": 2022,
-    "language": "Python",
-    "cpu_only": true
+    "model_name": "DeepSeek-R1-Distill-Llama-8B",
+    "region": "Asie (Chine)",
+    "library": "transformers / llama.cpp",
+    "year_created": 2025,
+    "ethical_focus": "Raisonnement complexe (CoT) aligné sur des valeurs de stabilité et d'harmonie sociale.",
+    "cpu_only": false
+  },
+  {
+    "model_name": "Falcon-2-11B-Instruct",
+    "region": "Moyen-Orient (EAU)",
+    "library": "transformers / llama.cpp",
+    "year_created": 2024,
+    "ethical_focus": "Alternative souveraine privilégiant la neutralité culturelle et la diversité globale.",
+    "cpu_only": false
   }
 ]
