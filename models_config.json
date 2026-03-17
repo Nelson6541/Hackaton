@@ -1,0 +1,23 @@
+[
+  {
+    "model_name": "distilgpt2",
+    "library": "transformers",
+    "year_created": 2019,
+    "language": "Python",
+    "cpu_only": true
+  },
+  {
+    "model_name": "EleutherAI/gpt-neo-1.3B",
+    "library": "transformers",
+    "year_created": 2021,
+    "language": "Python",
+    "cpu_only": true
+  },
+  {
+    "model_name": "bloom-560m",
+    "library": "transformers",
+    "year_created": 2022,
+    "language": "Python",
+    "cpu_only": true
+  }
+]
