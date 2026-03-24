@@ -1,0 +1,31 @@
+version: "3.9"
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.11.0
+    environment:
+      - discovery.type=single-node
+      - ES_JAVA_OPTS=-Xms1g -Xmx1g
+    ports:
+      - "9200:9200"
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:8.11.0
+    ports:
+      - "5601:5601"
+    environment:
+      - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+
+  logstash:
+    image: docker.elastic.co/logstash/logstash:8.11.0
+    ports:
+      - "5044:5044"
+    volumes:
+      - ./logstash/config:/usr/share/logstash/pipeline
+
+  runner:
+    build: ./runner_llm
+    volumes:
+      - ./data:/app/data   # ← C’est ici qu’on monte ton dossier local
+    depends_on:
+      - elasticsearch
+      - logstash
