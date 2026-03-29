@@ -1,12 +1,5 @@
 [
   {
-    "model_name": "distilgpt2",
-    "library": "transformers",
-    "year_created": 2019,
-    "language": "Python",
-    "cpu_only": true
-  },
-  {
     "model_name": "EleutherAI/gpt-neo-1.3B",
     "library": "transformers",
     "year_created": 2021,
