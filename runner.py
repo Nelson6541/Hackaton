@@ -8,9 +8,12 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 # ================================
 # CONFIGURATION PAR DÉFAUT
 # ================================
+BASE_DIR = os.getcwd()
+
 BENCHMARK_FILES = [
-    os.path.join(os.getcwd(), "data", "benchmarks_pairs.json"),
-    os.path.join(os.getcwd(), "data", "benchmarks_fused.json")
+    os.path.join(BASE_DIR, "benchmarks_pairs.json"),
+    os.path.join(BASE_DIR, "benchmarks_fused.json")
+
 ]
 MODELS_CONFIG_FILE = os.path.join(os.getcwd(), "models_config.json")
 MAX_NEW_TOKENS = 50
