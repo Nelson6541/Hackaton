@@ -11,7 +11,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 BASE_DIR = os.getcwd()
 
 BENCHMARK_FILES = [
-    os.path.join(BASE_DIR, "benchmarks_pairs.json"),
+  
     os.path.join(BASE_DIR, "benchmarks_fused.json")
 
 ]
