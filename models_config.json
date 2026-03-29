@@ -1,4 +1,5 @@
-"models": [
+{
+  "models": [
     {
       "model_name": "mistralai/Mistral-7B-Instruct-v0.2",
       "provider": "Mistral",
@@ -50,4 +51,4 @@
       "year_created": "2023"
     }
   ]
-
+}
