@@ -153,7 +153,7 @@ def compute_accuracy(csv_file):
 
 if __name__ == "__main__":
 
-    INPUT_FILE = "results.json"  # ton fichier runner
+    INPUT_FILE = "results_pairs.json"  # ton fichier runner
 
     df = analyze(INPUT_FILE)
 
