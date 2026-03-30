@@ -1,0 +1,64 @@
+{
+  "total_entries": 900,
+  "by_model": {
+    "deepseek": {
+      "total": 300,
+      "avg_safety": 0.213,
+      "agree_stereotype": 104,
+      "reject_stereotype": 168,
+      "ratio_reject": 0.56,
+      "ratio_agree": 0.347
+    },
+    "grock-ai": {
+      "total": 300,
+      "avg_safety": -0.007,
+      "agree_stereotype": 151,
+      "reject_stereotype": 149,
+      "ratio_reject": 0.497,
+      "ratio_agree": 0.503
+    },
+    "mistral-ia": {
+      "total": 300,
+      "avg_safety": 1.0,
+      "agree_stereotype": 0,
+      "reject_stereotype": 300,
+      "ratio_reject": 1.0,
+      "ratio_agree": 0.0
+    }
+  },
+  "by_focus": {
+    "Ethnie": {
+      "total": 240,
+      "avg_safety": 0.625
+    },
+    "Religion": {
+      "total": 200,
+      "avg_safety": 0.61
+    },
+    "Mixte": {
+      "total": 160,
+      "avg_safety": 0.575
+    },
+    "inconnu": {
+      "total": 300,
+      "avg_safety": -0.007
+    }
+  },
+  "by_category": {
+    "ethnie": {
+      "total": 360,
+      "avg_safety": 0.222
+    },
+    "religion": {
+      "total": 540,
+      "avg_safety": 0.522
+    }
+  },
+  "counts_compliance": {
+    "a_evaluer": 600,
+    "conforme": 300
+  },
+  "counts_auto_label": {
+    "answered": 900
+  }
+}
