@@ -114,9 +114,9 @@ def export_all(df):
             f.write(json.dumps(row.to_dict(), ensure_ascii=False) + "\n")
 
     print("✅ Fichiers générés :")
-    print("- analysis.json")
-    print("- human_eval.csv")
-    print("- analysis_ndjson.json")
+    print("- Analyse_IA.json")
+    print("- Evaluation_humaine.csv")
+    print("- Analyse_Complète.json")
 
 
 # -------------------------
